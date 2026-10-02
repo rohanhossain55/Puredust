@@ -8,7 +8,7 @@ export const products: Product[] = [
     description:
       'A vibrant superfood powder made from premium beetroots, rich in iron and antioxidants. Perfect for natural skincare, smoothies, and boosting your daily nutrition.',
     image:
-      'https://images.pexels.com/photos/11663127/pexels-photo-11663127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/products/beetroot-powder.png',
     tags: ['Superfood', 'Natural Lip & Skin Care', 'Rich in Iron'],
     variations: [
       { weight: '250g', price: 450 },
@@ -23,7 +23,7 @@ export const products: Product[] = [
     description:
       'Made from sun-dried raw bananas, finely ground into a versatile powder. Perfect for baby food, baking, and traditional recipes.',
     image:
-      'https://images.pexels.com/photos/47305/bananas-banana-shrub-fruits-yellow-47305.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/products/raw-banana-powder.png',
     tags: ['100% Organic', 'Gut Health', 'Baby Food Friendly'],
     variations: [
       { weight: '250g', price: 180 },
@@ -38,7 +38,7 @@ export const products: Product[] = [
     description:
       'A natural sweetener made from premium dried dates, ground into a fine powder. Rich in iron and fiber, ideal for healthy cooking.',
     image:
-      'https://images.pexels.com/photos/18435590/pexels-photo-18435590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/products/date-powder.png',
     tags: ['Natural Sweetener', 'Energy Booster', 'Fiber Rich'],
     variations: [
       { weight: '250g', price: 300 },
@@ -53,7 +53,7 @@ export const products: Product[] = [
     description:
       'Zesty lemon peel dried and ground to perfection. Packed with Vitamin C for skincare, teas, and culinary uses.',
     image:
-      'https://images.pexels.com/photos/14016160/pexels-photo-14016160.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+      '/images/products/lemon-peel-powder.png',
     tags: ['Vitamin C Rich', 'Immunity & Skincare'],
     variations: [
       { weight: '250g', price: 170 },
