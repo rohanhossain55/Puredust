@@ -2,6 +2,21 @@ import type { Product, DeliveryOption } from './types';
 
 export const products: Product[] = [
   {
+    id: 'beetroot-powder',
+    name: 'Beetroot Powder',
+    nameBn: 'বিটমূলের পাউডার',
+    description:
+      'A vibrant superfood powder made from premium beetroots, rich in iron and antioxidants. Perfect for natural skincare, smoothies, and boosting your daily nutrition.',
+    image:
+      'https://images.pexels.com/photos/11663127/pexels-photo-11663127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    tags: ['Superfood', 'Natural Lip & Skin Care', 'Rich in Iron'],
+    variations: [
+      { weight: '250g', price: 450 },
+      { weight: '500g', price: 850 },
+      { weight: '1kg', price: 1600, note: 'Will be delivered as 2 packets of 500g' },
+    ],
+  },
+  {
     id: 'raw-banana-powder',
     name: 'Raw Banana Powder',
     nameBn: 'কাঁচা কলার পাউডার',
@@ -24,7 +39,7 @@ export const products: Product[] = [
       'A natural sweetener made from premium dried dates, ground into a fine powder. Rich in iron and fiber, ideal for healthy cooking.',
     image:
       'https://images.pexels.com/photos/18435590/pexels-photo-18435590.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tags: ['Natural Sweetener', 'Iron & Fiber Rich'],
+    tags: ['Natural Sweetener', 'Energy Booster', 'Fiber Rich'],
     variations: [
       { weight: '250g', price: 300 },
       { weight: '500g', price: 600 },
@@ -39,26 +54,11 @@ export const products: Product[] = [
       'Zesty lemon peel dried and ground to perfection. Packed with Vitamin C for skincare, teas, and culinary uses.',
     image:
       'https://images.pexels.com/photos/14016160/pexels-photo-14016160.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tags: ['Vitamin C Rich', 'Skincare & Health'],
+    tags: ['Vitamin C Rich', 'Immunity & Skincare'],
     variations: [
       { weight: '250g', price: 170 },
       { weight: '500g', price: 320 },
       { weight: '1kg', price: 620, note: 'Will be delivered as 2 packets of 500g' },
-    ],
-  },
-  {
-    id: 'beetroot-powder',
-    name: 'Beetroot Powder',
-    nameBn: 'বিটমূলের পাউডার',
-    description:
-      'A vibrant superfood powder made from premium beetroots, rich in iron and antioxidants. Perfect for natural skincare, smoothies, and boosting your daily nutrition.',
-    image:
-      'https://images.pexels.com/photos/11663127/pexels-photo-11663127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-    tags: ['Superfood', 'Natural Lip & Skin Care', 'Rich in Iron & Antioxidants'],
-    variations: [
-      { weight: '250g', price: 450 },
-      { weight: '500g', price: 850 },
-      { weight: '1kg', price: 1600, note: 'Will be delivered as 2 packets of 500g' },
     ],
   },
 ];
