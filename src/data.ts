@@ -46,6 +46,21 @@ export const products: Product[] = [
       { weight: '1kg', price: 620, note: 'Will be delivered as 2 packets of 500g' },
     ],
   },
+  {
+    id: 'beetroot-powder',
+    name: 'Beetroot Powder',
+    nameBn: 'বিটমূলের পাউডার',
+    description:
+      'A vibrant superfood powder made from premium beetroots, rich in iron and antioxidants. Perfect for natural skincare, smoothies, and boosting your daily nutrition.',
+    image:
+      'https://images.pexels.com/photos/11663127/pexels-photo-11663127.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    tags: ['Superfood', 'Natural Lip & Skin Care', 'Rich in Iron & Antioxidants'],
+    variations: [
+      { weight: '250g', price: 450 },
+      { weight: '500g', price: 850 },
+      { weight: '1kg', price: 1600, note: 'Will be delivered as 2 packets of 500g' },
+    ],
+  },
 ];
 
 export const deliveryOptions: DeliveryOption[] = [
