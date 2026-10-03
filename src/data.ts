@@ -8,7 +8,7 @@ export const products: Product[] = [
     description:
       'A vibrant superfood powder made from premium beetroots, rich in iron and antioxidants. Perfect for natural skincare, smoothies, and boosting your daily nutrition.',
     image:
-      '/images/products/beetroot-powder.png',
+      '/images/products/bitroot-powder.png',
     tags: ['Superfood', 'Natural Lip & Skin Care', 'Rich in Iron'],
     variations: [
       { weight: '250g', price: 450 },
@@ -53,7 +53,7 @@ export const products: Product[] = [
     description:
       'Zesty lemon peel dried and ground to perfection. Packed with Vitamin C for skincare, teas, and culinary uses.',
     image:
-      '/images/products/lemon-peel-powder.png',
+      '/images/products/Lime-powder.png',
     tags: ['Vitamin C Rich', 'Immunity & Skincare'],
     variations: [
       { weight: '250g', price: 170 },
