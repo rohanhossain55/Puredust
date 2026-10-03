@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { X, Check, Loader2, Receipt, Banknote, Smartphone, MapPin, User, Phone } from 'lucide-react';
 import { useCart } from '../context/CartContext';
 import { deliveryOptions } from '../data';
-import { supabase } from '../lib/supabase';
+import { supabase, isSupabaseConfigured } from '../lib/supabase';
 import type { DeliveryLocation, PaymentMethod, OrderData } from '../types';
 
 interface CheckoutModalProps {
@@ -38,6 +38,13 @@ export default function CheckoutModal({ isOpen, onClose }: CheckoutModalProps) {
 
     if (!/^\+?\d{10,15}$/.test(phone.replace(/[\s-]/g, ''))) {
       setError('Please enter a valid phone number.');
+      return;
+    }
+
+    if (!isSupabaseConfigured || !supabase) {
+      setError(
+        'Online ordering is temporarily unavailable. Please call us at +880 1000-000000 to place your order.',
+      );
       return;
     }
 
