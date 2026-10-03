@@ -32,6 +32,7 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-white mb-4">Products</h3>
             <ul className="space-y-2 text-sm">
+              <li className="text-organic-300">Beetroot Powder</li>
               <li className="text-organic-300">Raw Banana Powder</li>
               <li className="text-organic-300">Natural Date Powder</li>
               <li className="text-organic-300">Lemon Peel Powder</li>

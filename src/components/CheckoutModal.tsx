@@ -71,8 +71,10 @@ export default function CheckoutModal({ isOpen, onClose }: CheckoutModalProps) {
 
       setConfirmedOrder(orderData);
       clearCart();
-    } catch (err) {
-      setError(err instanceof Error ? err.message : 'Failed to place order. Please try again.');
+    } catch {
+      setError(
+        'We could not place your order right now. Please check your internet connection and try again, or call us at +880 1000-000000.',
+      );
     } finally {
       setSubmitting(false);
     }
