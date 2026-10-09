@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://46964609.puredust.pages.devsitemap.xml
+Sitemap: https://puredust.pages.dev/sitemap.xml
