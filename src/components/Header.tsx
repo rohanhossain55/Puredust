@@ -25,7 +25,7 @@ export default function Header({ onSearch }: HeaderProps) {
                 PureDust
               </span>
               <span className="text-[10px] lg:text-xs text-organic-600 font-medium tracking-wide">
-                100% Organic &amp; Natural
+                Natural Goodness in Every Spoon
               </span>
             </div>
           </a>
