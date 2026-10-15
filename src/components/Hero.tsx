@@ -11,7 +11,7 @@ export default function Hero() {
           <div className="text-center lg:text-left">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-organic-200/60 text-organic-700 text-sm font-medium mb-6">
               <Leaf className="w-4 h-4" />
-              100% Organic &amp; Natural
+              Natural Goodness in Every Spoon
             </span>
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-organic-900 leading-tight mb-6">
               Pure Goodness,
