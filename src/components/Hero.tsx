@@ -62,7 +62,7 @@ export default function Hero() {
 
               <div className="relative aspect-[5/4] overflow-hidden rounded-[1.75rem] bg-[#eee9d8] shadow-lg sm:rounded-[2rem] lg:absolute lg:inset-y-0 lg:left-0 lg:right-0 lg:aspect-auto lg:rounded-none lg:shadow-none">
                 <img
-                  src="public/images/products/puredust-hero.png"
+                  src="images/products/puredust-hero.png"
                   alt="PureDust Beetroot, Raw Banana, Date and Lemon Peel Powder pouches"
                   className="absolute inset-0 h-full w-full object-cover object-center"
                   fetchPriority="high"
